@@ -135,11 +135,13 @@ nav ul li a:visited{
 #logoDiv{
     text-align: center;
     width: 200px;
-    margin-left: -30px;
+    margin: 0 auto;
 }
 
 header img {
     width: 30%;
+    margin-top: -20px;
+    margin-bottom: 10px;
 }
 
 .siteName, h2 {
@@ -148,6 +150,10 @@ header img {
     font-weight: bold;
     font-size: 1.3em;
     margin-top:0;
+}
+
+.siteName {
+    font-size: 1.9em;
 }
 
 #hamburger div {
