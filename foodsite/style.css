@@ -288,5 +288,13 @@ footer {
         margin: 10px auto;
     }
 
+    footer {
+        max-width: 950px;
+        margin: 10px auto;
+    }
+
+    footer p {
+        padding: 10px 20px;
+    }
 
 }
