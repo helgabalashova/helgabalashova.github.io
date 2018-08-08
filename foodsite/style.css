@@ -218,3 +218,75 @@ main p, footer p {
 footer {
     background-color: rgba(255, 255, 255, 0.7)
 }
+
+@media screen and (min-width: 900px) {
+
+    header {
+        max-width: 950px;
+        margin: 10px auto;
+        height: 40vh;
+    }
+
+    #logoDiv{
+        margin-top: 60px;
+    }
+
+    #logoDiv img{
+        width: 100px;
+    }
+
+    .siteName {
+        font-size: 2.5em;
+        width: 250px;
+        margin-left: -20px;
+    }
+
+    nav ul {
+        display: inline-block;
+        position:static;
+    }
+
+    #nav-icon span {
+        display:none;
+    }
+
+    nav ul li {
+        display: inline;
+        border: none;
+        font-size: 1.3em;
+    }
+
+    nav ul li:first-child {
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        max-width: 950px;
+        margin: 0 auto;
+        height: 350px;
+        overflow: hidden;
+    }
+
+    #firstBlock {
+        width: 60%;
+        padding: 55px;
+    }
+
+    #secondBlock {
+        width: 60%;
+        padding: 55px;
+    }
+
+    #thirdBlock {
+        width: 50%;
+        padding: 70px 50px 50px 50px;
+    }
+
+    #lastBlock {
+        max-width: 950px;
+        margin: 10px auto;
+    }
+
+
+}
