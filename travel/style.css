@@ -1,0 +1,193 @@
+body {
+    background-color: #2d2d2e;
+}
+
+/*header style*/
+
+header {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.top-stories-pics {
+    display: none;
+}
+
+/* top stories navigation */
+
+.navMenu {
+    border-bottom: 1px solid #b6b8b7;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstMenu {
+    border-top: 1px solid #b6b8b7;
+}
+
+.navMenu div:first-child {
+    color: white;
+    padding: 9px 15px;
+    margin-right: 20px;
+    border-radius: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navMenu a span:first-child {
+
+}
+
+.one {
+    background-color: #5b44dc;
+}
+
+.two {
+    background-color: #2b70b5;
+}
+
+.three {
+    background-color: #579c73;
+}
+
+.four     {
+    background-color: #cf9c59;
+}
+
+.five {
+    background-color: #d492e8;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #a6a6a6;
+}
+
+nav ul {
+    display: none;
+}
+
+/*blog posts*/
+.postContainer {
+    padding: 15px;
+}
+
+.post {
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.5em;
+    width: 70px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.postText {
+    color: #a6a6a6;
+}
+
+.photoFrame {
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+#advantage {
+    background-image: url(img/bad-weather.jpeg);
+
+}
+
+.adventureText {
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.bg-grey {
+    background-color: #3a3b3f;
+    color: white;
+}
+
+#fiveThings {
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 5px 8px;
+    border-radius: 50px;
+    border: 1px solid #a6a6a6;
+    text-transform: uppercase;
+    color: #a6a6a6;
+}
+
+.button:hover {
+    background-color: #3a3b3f;
+    color: white;
+}
+
+#penguins {
+    background-image: url(img/penguins.jpeg);
+}
+
+#forests {
+    background-image: url(img/nature.jpeg);
+}
+
+#sunglasses {
+    padding: 10px 10px 20px 10px;
+    background-color: #5e4dd2;
+    border-radius: 5px;
+}
+
+#sunglasses h3 {
+    color: white;
+}
+
+.date {
+    font-size: 0.7em;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+}
+
+.author img {
+    max-width: 15%;
+    height: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.editors {
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.editors p {
+    border-bottom: 1px solid #b6b8b7;
+}
